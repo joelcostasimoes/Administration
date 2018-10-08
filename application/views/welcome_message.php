@@ -1,89 +1,73 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
+?>
+<!doctype html>
+<html lang="pt-pt">
 <head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<style type="text/css">
+	<title>Administration HealthyDiet</title>
 
-	::selection { background-color: #E13300; color: white; }
-	::-moz-selection { background-color: #E13300; color: white; }
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name="viewport" content="width=device-width" />
 
-	body {
-		background-color: #fff;
-		margin: 40px;
-		font: 13px/20px normal Helvetica, Arial, sans-serif;
-		color: #4F5155;
-	}
 
-	a {
-		color: #003399;
-		background-color: transparent;
-		font-weight: normal;
-	}
+	<!-- Bootstrap core CSS     -->
+	<link href="style/bootstrap.min.css" rel="stylesheet" />
 
-	h1 {
-		color: #444;
-		background-color: transparent;
-		border-bottom: 1px solid #D0D0D0;
-		font-size: 19px;
-		font-weight: normal;
-		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
-	}
+	<!-- Animation library for notifications   -->
+	<link href="style/animate.min.css" rel="stylesheet"/>
 
-	code {
-		font-family: Consolas, Monaco, Courier New, Courier, monospace;
-		font-size: 12px;
-		background-color: #f9f9f9;
-		border: 1px solid #D0D0D0;
-		color: #002166;
-		display: block;
-		margin: 14px 0 14px 0;
-		padding: 12px 10px 12px 10px;
-	}
+	<!--  Paper Dashboard core CSS    -->
+	<link href="style/paper-dashboard.css" rel="stylesheet"/>
 
-	#body {
-		margin: 0 15px 0 15px;
-	}
 
-	p.footer {
-		text-align: right;
-		font-size: 11px;
-		border-top: 1px solid #D0D0D0;
-		line-height: 32px;
-		padding: 0 10px 0 10px;
-		margin: 20px 0 0 0;
-	}
+	<!--  CSS for Demo Purpose, don't include it in your project     -->
+	<link href="style/demo.css" rel="stylesheet" />
 
-	#container {
-		margin: 10px;
-		border: 1px solid #D0D0D0;
-		box-shadow: 0 0 8px #D0D0D0;
-	}
-	</style>
+
+	<!--  Fonts and icons     -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+	<link href="style/themify-icons.css" rel="stylesheet">
+
 </head>
 <body>
 
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+	<div class="wrapper">
+		<div class="card">
+			<div class="header">
+				<h4 class="title">Login</h4>
+			</div>
+			<div class="content">
+				<form>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label>Username</label>
+								<input type="text" class="form-control border-input" placeholder="Username" value="michael23">
+							</div>
+						</div>
+					</div>
 
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label>Password</label>
+								<input type="password" class="form-control border-input" placeholder="Password" >
+							</div>
+						</div>
+					</div>
+					<div class="text-center">
+						<button type="submit" class="btn btn-info btn-fill btn-wd">Iniciar Sessão</button>
+					</div>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+		</div>
 	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
-</div>
-
 </body>
 </html>
