@@ -16,23 +16,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 	<!-- Bootstrap core CSS     -->
-	<link href="style/bootstrap.min.css" rel="stylesheet" />
+	<link href="public/style/bootstrap.min.css" rel="stylesheet" />
 
 	<!-- Animation library for notifications   -->
-	<link href="style/animate.min.css" rel="stylesheet"/>
+	<link href="public/style/animate.min.css" rel="stylesheet"/>
 
 	<!--  Paper Dashboard core CSS    -->
-	<link href="style/paper-dashboard.css" rel="stylesheet"/>
+	<link href="public/style/paper-dashboard.css" rel="stylesheet"/>
 
 
 	<!--  CSS for Demo Purpose, don't include it in your project     -->
-	<link href="style/demo.css" rel="stylesheet" />
+	<link href="public/style/demo.css" rel="stylesheet" />
 
 
 	<!--  Fonts and icons     -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
-	<link href="style/themify-icons.css" rel="stylesheet">
+	<link href="public/style/themify-icons.css" rel="stylesheet">
 
 </head>
 <body>
