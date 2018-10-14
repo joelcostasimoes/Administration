@@ -3847,3 +3847,13 @@ textarea.form-control {
         -webkit-overflow-scrolling: touch;
     }
 }
+
+
+/****Other styles*/
+
+.card.login{
+    top: calc(50% - 147px);
+    position: absolute;
+    width: 500px;
+    left: calc(50% - 250px);
+}

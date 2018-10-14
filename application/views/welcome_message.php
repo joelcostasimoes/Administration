@@ -38,17 +38,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 	<div class="wrapper">
-		<div class="card">
+		<div class="card login">
 			<div class="header">
-				<h4 class="title">Login</h4>
+				<h4 class="title">Iniciar Sessão</h4>
 			</div>
 			<div class="content">
-				<form>
+				<form action="<?=base_url()?>login" method="post" accept-charset="utf-8">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
-								<label>Username</label>
-								<input type="text" class="form-control border-input" placeholder="Username" value="michael23">
+								<label>Email</label>
+								<input type="text" class="form-control border-input" placeholder="Email" value="john.doe@domain.com">
 							</div>
 						</div>
 					</div>
